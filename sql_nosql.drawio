@@ -38,13 +38,18 @@
         <mxCell id="yfWzdDoWOIml6qprFiX3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfWzdDoWOIml6qprFiX3-9" target="yfWzdDoWOIml6qprFiX3-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yfWzdDoWOIml6qprFiX3-20" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfWzdDoWOIml6qprFiX3-14">
+          <mxGeometry x="-0.0429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yfWzdDoWOIml6qprFiX3-9" value="+ Data types&lt;div&gt;+ queries&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="180" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yfWzdDoWOIml6qprFiX3-11" value="Document DB&lt;br&gt;(MongoDB, CouchDB)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yfWzdDoWOIml6qprFiX3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfWzdDoWOIml6qprFiX3-13" target="yfWzdDoWOIml6qprFiX3-16">
+        <mxCell id="yfWzdDoWOIml6qprFiX3-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfWzdDoWOIml6qprFiX3-13" target="yfWzdDoWOIml6qprFiX3-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfWzdDoWOIml6qprFiX3-13" value="+ Ever-increasing data&lt;br&gt;+ Finite queries" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -56,7 +61,7 @@
         <mxCell id="yfWzdDoWOIml6qprFiX3-16" value="Columnar DB&lt;br&gt;(Cassandra, HBase)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yfWzdDoWOIml6qprFiX3-18" value="&lt;b&gt;Ever-increasing data&lt;/b&gt; like Uber system. Drivers will constantly send their positions to the server&lt;br&gt;&lt;b&gt;Finite queries: &lt;/b&gt;basic and simple queries" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yfWzdDoWOIml6qprFiX3-18" value="&lt;b&gt;Ever-increasing data&lt;/b&gt; like Uber system. Drivers will constantly send their positions to the server. Data increasing not in linear fashion.&amp;nbsp;&lt;br&gt;&lt;b&gt;Finite queries: &lt;/b&gt;basic and simple queries" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="446" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
